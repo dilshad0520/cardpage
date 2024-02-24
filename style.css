@@ -1,0 +1,307 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+
+.Header-left h2 {
+  font-size: 30px;
+  font-weight: 100;
+}
+.dropdown {
+  padding: 10px;
+}
+.dropdown ul {
+  display: flex;
+  align-items: center;
+}
+.dropdown ul li {
+  padding: 10px;
+  list-style: none;
+}
+.dropdown ul li span {
+  font-size: 12px;
+  position: absolute;
+  top: 18px;
+}
+.showbtn {
+  display: none;
+}
+.showbtn button {
+  border: none;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.manulist ul {
+  display: flex;
+}
+.manulist ul li {
+  padding: 10px;
+  list-style: none;
+}
+.manulist ul li span {
+  font-size: 12px;
+}
+.manulist ul li a {
+  font-size: 14px;
+  position: absolute;
+  top: 16px;
+  color: black;
+}
+
+.nevbar {
+  background-color: #d5d2d2;
+  padding: 10px;
+}
+.container {
+  max-width: 1270px;
+  margin: auto;
+}
+.nevbar-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.nevbar-content {
+  width: 318px;
+  border-right: 2px solid gray;
+}
+
+.nevbar-content h2 {
+  font-size: 16px;
+  font-weight: bold;
+}
+.nevbar-content p {
+  font-size: 14px;
+  text-align: center;
+  margin-right: 80px;
+}
+.nevbar-content p span {
+  font-size: 8px;
+}
+.card {
+  padding: 40px 0px;
+}
+.cardcontent-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.cardhead {
+  margin-bottom: 20px;
+}
+.cardhead h2 {
+  font-size: 30px;
+  font-weight: lighter;
+}
+.cardhead h2 span {
+  font-size: 18px;
+}
+
+.subtotalprice h2 {
+  font-size: 18px;
+}
+.subtotalprice span {
+  color: gray;
+  font-size: 14px;
+}
+.card-item {
+  position: relative;
+}
+.card-item::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  background-color: black;
+}
+.carditem-wrap {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.cardimage-wrap {
+  display: flex;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+.cardimage {
+  width: 250px;
+  margin-right: 30px;
+}
+.cardimage img {
+  width: 100%;
+  height: 100%;
+}
+
+.cardname p {
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+.cardname h4 {
+  font-size: 15px;
+  margin-bottom: 20px;
+  font-weight: 900;
+}
+.cardbutton {
+  width: 110px;
+  height: 28px;
+  margin-right: 10px;
+  border: 2px solid gray;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+.cardbutton button {
+  width: 35px;
+  height: 25px;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  background-color: rgb(240 238 238);
+}
+.cardbutton span {
+  margin: 0px 10px;
+}
+
+.cardprice h3 {
+  font-size: 17px;
+  font-weight: 900;
+}
+.cardprice span {
+  color: gray;
+}
+.carddelete {
+  position: relative;
+}
+.carddelete button {
+  border: none;
+  font-size: 18px;
+}
+.carddelete p {
+  width: 145px;
+  font-size: 17px;
+  font-weight: 900;
+  position: absolute;
+  bottom: 35px;
+  right: 10px;
+}
+.carddelete span {
+  color: gray;
+}
+.cardprocess {
+  text-align: center;
+  margin-top: 20px;
+}
+.cardprocess button {
+  padding: 8px 50px;
+  border: none;
+  color: aliceblue;
+  background-color: #3c736e;
+  border-radius: 5px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .Header-row {
+    flex-direction: column;
+    padding: 0px;
+  }
+  .dropdown ul {
+    display: none;
+  }
+  .Header-left h2 {
+    font-size: 24px;
+    margin-right: 140px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+  .dropdown {
+    padding: 0px;
+  }
+  .dropdown ul li span {
+    position: absolute;
+    top: 28%;
+    right: 16px;
+  }
+  .manulist {
+    margin-bottom: 10px;
+  }
+  .manulist ul li a {
+    position: absolute;
+    top: 8%;
+    right: 11px;
+  }
+  .showbtn {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 2px;
+    margin-top: 5px;
+  }
+  .nevbar {
+    text-align: center;
+    margin: 0px 6px;
+  }
+  .nevbar-wrap {
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .nevbar-content {
+    margin-bottom: 10px;
+    border: none;
+    width: 96%;
+  }
+  .nevbar-content p {
+    text-align: center;
+    margin: auto;
+  }
+  .cardcontent-wrap {
+    padding: 0px 10px;
+  }
+  .cardhead {
+    margin-bottom: 0px;
+  }
+  .cardhead h2 {
+    font-size: 16px;
+  }
+  .subtotalprice h2 {
+    font-size: 14px;
+  }
+  .cardimage-wrap {
+    flex-direction: column;
+    margin: 0px;
+  }
+  .cardprice h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .cardprice h3 span {
+    font-size: 14px;
+  }
+  .cardname {
+    padding: 0px 15px;
+  }
+  .cardname p {
+    margin-bottom: 10px;
+  }
+  .carddelete {
+    margin-right: 20px;
+  }
+  .carddelete p {
+    position: absolute;
+    bottom: 0px;
+    font-size: 16px;
+    right: -9px;
+    margin-bottom: 20px;
+  }
+  .carddelete p span {
+    font-size: 14px;
+  }
+}
