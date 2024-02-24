@@ -216,6 +216,9 @@
   .dropdown ul {
     display: none;
   }
+  .Header-left {
+    padding: 0px 8px;
+  }
   .Header-left h2 {
     font-size: 24px;
     margin-right: 162px;
@@ -232,12 +235,12 @@
   }
   .manulist {
     margin-bottom: 10px;
-    margin-right: 25px;
+    padding: 0px 25px 1px 0px;
   }
   .manulist ul li a {
     position: absolute;
     top: 8%;
-    right: 18px;
+    right: 15px;
   }
   .showbtn {
     display: block;
@@ -248,7 +251,8 @@
   }
   .nevbar {
     text-align: center;
-    margin: 0px 6px;
+    margin: 0px 0px 0px 7px;
+    width: 95%;
   }
   .nevbar-wrap {
     flex-direction: column;
@@ -306,7 +310,6 @@
     position: absolute;
     bottom: 0px;
     font-size: 16px;
-    right: 0px;
     margin-bottom: 20px;
   }
   .carddelete p span {
@@ -315,6 +318,6 @@
 
   .card-item {
     width: 93%;
-    margin-left: 5px;
+    margin-left: 6px;
   }
 }
