@@ -160,7 +160,7 @@
   margin-bottom: 15px;
 }
 .cardbutton button {
-  width: 35px;
+  padding: 0px 13px;
   height: 25px;
   font-size: 20px;
   text-align: center;
@@ -218,7 +218,7 @@
   }
   .Header-left h2 {
     font-size: 24px;
-    margin-right: 140px;
+    margin-right: 162px;
     margin-top: 5px;
     margin-bottom: 20px;
   }
@@ -232,17 +232,18 @@
   }
   .manulist {
     margin-bottom: 10px;
+    margin-right: 25px;
   }
   .manulist ul li a {
     position: absolute;
     top: 8%;
-    right: 11px;
+    right: 18px;
   }
   .showbtn {
     display: block;
     position: absolute;
     top: 0;
-    right: 2px;
+    right: 10px;
     margin-top: 5px;
   }
   .nevbar {
@@ -254,7 +255,7 @@
     overflow: hidden;
   }
   .nevbar-content {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     border: none;
     width: 96%;
   }
@@ -288,8 +289,15 @@
   .cardname {
     padding: 0px 15px;
   }
+
+  .cardbutton {
+    width: 44%;
+  }
+
   .cardname p {
     margin-bottom: 10px;
+    font-size: 16px;
+    width: 200px;
   }
   .carddelete {
     margin-right: 20px;
@@ -298,10 +306,15 @@
     position: absolute;
     bottom: 0px;
     font-size: 16px;
-    right: -9px;
+    right: 0px;
     margin-bottom: 20px;
   }
   .carddelete p span {
     font-size: 14px;
+  }
+
+  .card-item {
+    width: 93%;
+    margin-left: 5px;
   }
 }
