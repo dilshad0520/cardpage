@@ -292,10 +292,6 @@
     padding-left: 10px;
   }
 
-  .cardbutton {
-    width: 41%;
-  }
-
   .cardname p {
     margin-bottom: 10px;
     font-size: 16px;
@@ -307,6 +303,7 @@
     bottom: 0px;
     font-size: 16px;
     margin-bottom: 20px;
+    right: 20px;
   }
   .carddelete p span {
     font-size: 14px;
